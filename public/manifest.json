@@ -1,0 +1,17 @@
+
+{
+    "start_url": "/",
+    "id": "/",
+    "display": "standalone",
+    "orientation": "portrait",
+    "theme_color": "#f69435",
+    "background_color": "#f69435",
+    "scope": "/",
+    "name": "Notify",
+    "short_name": "Notifier",
+    "description": "Notifications",
+    "icons": [{
+        "src": "bell-icon-transparent-notification-free-png.webp",
+        "sizes": "144x144"
+        }]
+}
