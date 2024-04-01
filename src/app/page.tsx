@@ -15,14 +15,14 @@ export default function Home() {
   }
 
   return (
-    <main className="min-h-screen flex flex-col  justify-around items-center">
+    <main className="min-h-screen bg-black flex flex-col  justify-around items-center">
       <div className=" flex flex-col gap-4">
-        <h1 className="text-center text-3xl">Lorem Ipsum...</h1>
-        <h1 className="text-center text-2xl  opacity-40">Lorem ipsum dolor sit amet.</h1>
+        <h1 className="text-center text-white text-3xl">Lorem Ipsum...</h1>
+        <h1 className="text-center text-white text-2xl  opacity-40">Lorem ipsum dolor sit amet.</h1>
       </div>
       
       <div className=" rounded-full bg-orange-500  relative p-6">
-      <Bell height={100} width={100}/>
+      <Bell color="white" height={100} width={100}/>
       <div className="bg-orange-600 absolute animate-ping  top-0 left-0 -z-10 h-36 w-36 rounded-full">
       </div>
       </div>

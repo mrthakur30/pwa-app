@@ -10,8 +10,14 @@
     "name": "Notify",
     "short_name": "Notifier",
     "description": "Notifications",
-    "icons": [{
+    "icons": [
+        {
         "src": "bell-icon-transparent-notification-free-png.webp",
         "sizes": "144x144"
-        }]
+        },
+        {
+            "src": "icon.png",
+            "sizes": "512x512"
+        }
+    ]
 }
