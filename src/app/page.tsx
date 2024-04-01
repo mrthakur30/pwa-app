@@ -13,7 +13,6 @@ export default function Home() {
           notification.close();
         });
 
-        // Remove the notification after 5 seconds (5000 milliseconds)
         setTimeout(() => {
           notification.close();
         }, 5000);
